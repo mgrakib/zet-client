@@ -1,0 +1,6 @@
+.active{
+    font-size: 1.15rem;
+    color: var(--primary-color);
+    padding: 0px 1rem ;
+    font-weight: 500;
+}

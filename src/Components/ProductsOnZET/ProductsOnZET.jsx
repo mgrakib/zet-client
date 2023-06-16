@@ -6,6 +6,8 @@ import AccountSave from "../../assets/products/AccountSave.webp";
 import bnpl from "../../assets/products/BNPL.webp";
 import product1 from "../../assets/products/image (5).webp";
 import loan from "../../assets/products/Loan.webp";
+import leftBG from "../../assets/leftBG.svg";
+import rightBG from "../../assets/rightBG.svg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,7 +20,7 @@ const ProductsOnZET = () => {
 			style={{
 				background: "linear-gradient(168deg, #EAF5FF 0%, #FDFEFF 100%)",
 			}}
-			className='pt-[2rem] pb-[8vw] '
+			className='pt-[2rem] pb-[8vw] relative'
 		>
 			<Container>
 				<SectionTitle
@@ -28,7 +30,9 @@ const ProductsOnZET = () => {
 
 				<div
 					data-aos='fade-up'
-					data-aos-duration='1000'
+                    data-aos-duration='1000'
+					className="relative z-10"
+                    
 				>
 					<div className='grid grid-cols-2 gap-[2vw] mt-[4vw]'>
 						<div
@@ -57,60 +61,71 @@ const ProductsOnZET = () => {
 						<div className='flex items-center p-[2rem] bg-[#fff1ca] hover:bg-[#FFFFFF] rounded-md'>
 							<div className='contents'>
 								<img
-									src={product1}
+									src={loan}
 									alt=''
 									className='w-[30%]'
 								/>
 							</div>
 							<div className='flex flex-col pl-[1.5rem]'>
 								<h4 className='text-[20px] font-[600] leading-[30px] lette tracking-[0.1rem]'>
-									CREDIT CARDS
+									LOANS
 								</h4>
 								<p className='text-[16px] leading-[24px] font-[500]'>
-									100% Contactless Application Process with
-									Instant Approval From Top Banks.
+									100% online process. Instant offers.
+									Affordable Rate of Interest on loans.
 								</p>
 							</div>
 						</div>
 						<div className='flex items-center p-[2rem] bg-[#ffeee7] hover:bg-[#FFFFFF] rounded-md'>
 							<div className='contents'>
 								<img
-									src={product1}
+									src={bnpl}
 									alt=''
 									className='w-[30%]'
 								/>
 							</div>
 							<div className='flex flex-col pl-[1.5rem]'>
 								<h4 className='text-[20px] font-[600] leading-[30px] lette tracking-[0.1rem]'>
-									CREDIT CARDS
+									BUY NOW PAY LATER
 								</h4>
 								<p className='text-[16px] leading-[24px] font-[500]'>
-									100% Contactless Application Process with
-									Instant Approval From Top Banks.
+									Short-term financing that allows consumers
+									to make purchases and pay for them over
+									time.
 								</p>
 							</div>
 						</div>
 						<div className='flex items-center p-[2rem] bg-[#fff5e7] hover:bg-[#FFFFFF] rounded-md'>
 							<div className='contents'>
 								<img
-									src={product1}
+									src={AccountSave}
 									alt=''
 									className='w-[30%]'
 								/>
 							</div>
 							<div className='flex flex-col pl-[1.5rem]'>
 								<h4 className='text-[20px] font-[600] leading-[30px] lette tracking-[0.1rem]'>
-									CREDIT CARDS
+									SAVING ACCOUNTS
 								</h4>
 								<p className='text-[16px] leading-[24px] font-[500]'>
-									100% Contactless Application Process with
-									Instant Approval From Top Banks.
+									ZET offers range of savings account that
+									suits your personal needs for the banking.
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</Container>
+			<img
+				src={leftBG}
+				alt=''
+				className='absolute top-2 left-0 z-0'
+			/>
+			<img
+				src={rightBG}
+				alt=''
+				className='absolute bottom-0 right-0 z-0'
+			/>
 		</div>
 	);
 };

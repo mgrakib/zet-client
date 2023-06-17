@@ -4,6 +4,7 @@ import TopBrands from "../../Components/TopBrands/TopBrands";
 import ProductsOnZET from "../../Components/ProductsOnZET/ProductsOnZET";
 import Feature from "../../Components/Feature/Feature";
 import WhyChooseUs from "../../Components/WhyChooseUs/WhyChooseUs";
+import StartEarning from "../../Components/StartEarning/StartEarning";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <ProductsOnZET />
             <Feature />
             <WhyChooseUs />
+            <StartEarning />
         </div>
     );
 };

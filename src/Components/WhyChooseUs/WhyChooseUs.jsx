@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
 						className='w-[15%] h-[75%] pl-[1.5vw] absolute z-10'
 					/>
 
-					<div>
+					<div className="hidden md:block">
 						<p className='text-[24px] leading-[36px] font-[600]'>
 							Why{" "}
 							<span className='text-[#145CC5]'>Choose Us</span>
@@ -43,12 +43,12 @@ const WhyChooseUs = () => {
 						data-aos='fade-up'
 						data-aos-duration='1000'
 					>
-						<div className='grid grid-cols-2 px-[2vw] py-[1vw]'>
+						<div className='grid md:grid-cols-2 text-center md:text-left px-[2vw] py-[1vw]'>
 							<div className='px-[30px] py-[20px]'>
 								<img
 									src={zero_investment}
 									alt=''
-									className='w-[6vw]'
+									className=' md:w-[6vw] mx-auto md:mx-0'
 								/>
 								<p className='text-[20px] leading-[30px] tracking-[0.1rem] font-[600]'>
 									Zero Investment
@@ -61,7 +61,7 @@ const WhyChooseUs = () => {
 								<img
 									src={quick_payout}
 									alt=''
-									className='w-[6vw]'
+									className=' md:w-[6vw] mx-auto md:mx-0'
 								/>
 								<p className='text-[20px] leading-[30px] tracking-[0.1rem] font-[600]'>
 									Quick Payout
@@ -75,7 +75,7 @@ const WhyChooseUs = () => {
 								<img
 									src={Fin_products}
 									alt=''
-									className='w-[6vw]'
+									className=' md:w-[6vw] mx-auto md:mx-0'
 								/>
 								<p className='text-[20px] leading-[30px] tracking-[0.1rem] font-[600]'>
 									Limitless Earnings
@@ -89,7 +89,7 @@ const WhyChooseUs = () => {
 								<img
 									src={Icon_support}
 									alt=''
-									className='w-[6vw]'
+									className=' md:w-[6vw] mx-auto md:mx-0'
 								/>
 								<p className='text-[20px] leading-[30px] tracking-[0.1rem] font-[600]'>
 									Training & Upskilling
@@ -102,7 +102,7 @@ const WhyChooseUs = () => {
 								<img
 									src={customerSupport}
 									alt=''
-									className='w-[6vw]'
+									className=' md:w-[6vw] mx-auto md:mx-0'
 								/>
 								<p className='text-[20px] leading-[30px] tracking-[0.1rem] font-[600]'>
 									Customer Support
@@ -116,7 +116,7 @@ const WhyChooseUs = () => {
 								<img
 									src={financialProduct}
 									alt=''
-									className='w-[6vw]'
+									className=' md:w-[6vw] mx-auto md:mx-0'
 								/>
 								<p className='text-[20px] leading-[30px] tracking-[0.1rem] font-[600]'>
 									Financial Products

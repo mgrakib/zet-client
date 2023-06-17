@@ -13,11 +13,11 @@ const HeroSection = () => {
 			data-aos='fade-up'
 			data-aos-duration='1000'
 		>
-			<div className='py-[2rem]'>
+			<div className='py-[30px] md:py-[2rem]'>
 				<Container>
 					<div className='mt-[6vw] mb-[4vw] bg-light-bg-color flex flex-col md:flex-row items-center rounded-md'>
 						{/* hero section text  */}
-						<div className='p-[4vw] flex flex-col md:w-[55%]'>
+						<div className='p-[4vw] flex flex-col items-center md:items-start text-center md:text-left  md:w-[55%]'>
 							<h1 className='text-[40px] leading-[52px] font-bold mb-3'>
 								Become a Financial Advisor and{" "}
 								<span className='text-primary-color'>
@@ -37,7 +37,7 @@ const HeroSection = () => {
 						</div>
 
 						{/* heor img  */}
-						<div className='mt-[-4vw] md:w-[45%] '>
+						<div className='hidden md:block mt-[-4vw] md:w-[45%] '>
 							<img
 								src={heroImg}
 								alt=''

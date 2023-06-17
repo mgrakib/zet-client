@@ -34,12 +34,12 @@ const ProductsOnZET = () => {
 					className="relative z-10"
                     
 				>
-					<div className='grid grid-cols-2 gap-[2vw] mt-[4vw]'>
+					<div className='grid  md:grid-cols-2 gap-[2vw] mt-[4vw]'>
 						<div
 							style={{
 								willChange: `will-change: transform; transition: all 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`,
 							}}
-							className='flex items-center p-[2rem] bg-[#edffec] hover:bg-[#FFFFFF] rounded-md'
+							className='flex flex-col md:flex-row items-center p-[2rem] bg-[#edffec] hover:bg-[#FFFFFF] rounded-md'
 						>
 							<div className='contents'>
 								<img
@@ -58,7 +58,7 @@ const ProductsOnZET = () => {
 								</p>
 							</div>
 						</div>
-						<div className='flex items-center p-[2rem] bg-[#fff1ca] hover:bg-[#FFFFFF] rounded-md'>
+						<div className='flex flex-col md:flex-row  items-center p-[2rem] bg-[#fff1ca] hover:bg-[#FFFFFF] rounded-md'>
 							<div className='contents'>
 								<img
 									src={loan}
@@ -76,7 +76,7 @@ const ProductsOnZET = () => {
 								</p>
 							</div>
 						</div>
-						<div className='flex items-center p-[2rem] bg-[#ffeee7] hover:bg-[#FFFFFF] rounded-md'>
+						<div className='flex flex-col md:flex-row  items-center p-[2rem] bg-[#ffeee7] hover:bg-[#FFFFFF] rounded-md'>
 							<div className='contents'>
 								<img
 									src={bnpl}
@@ -95,7 +95,7 @@ const ProductsOnZET = () => {
 								</p>
 							</div>
 						</div>
-						<div className='flex items-center p-[2rem] bg-[#fff5e7] hover:bg-[#FFFFFF] rounded-md'>
+						<div className='flex flex-col md:flex-row  items-center p-[2rem] bg-[#fff5e7] hover:bg-[#FFFFFF] rounded-md'>
 							<div className='contents'>
 								<img
 									src={AccountSave}

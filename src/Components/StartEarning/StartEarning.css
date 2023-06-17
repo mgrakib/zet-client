@@ -1,0 +1,14 @@
+.swiper-button-prev,  .swiper-button-next, .swiper-pagination {
+display: none !important;
+}
+
+.bg-clip{
+    clip-path: polygon(0% 27%, 100% 0%, 100% 73%, 0% 100%);
+}
+
+
+@media (max-width: 767px) {
+  .bg-clip{
+    clip-path: polygon(0% 13%, 100% 0%, 100% 87%, 0% 100%);
+}
+}

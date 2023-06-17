@@ -2,6 +2,7 @@ import Container from "../Container/Container";
 import logo from '../../assets/zet_new_logosvg.svg'
 import './NavBar.css'
 import { NavLink } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 const NavBar = () => {
     return (
 		<div className='py-[8px] border-b border-[#D1D8E1]'>
@@ -15,7 +16,10 @@ const NavBar = () => {
 						/>
 					</div>
 
-					<nav className='ml-auto '>
+					<div className="ml-auto">
+						<FaBars />
+					</div>
+					<nav className='ml-auto hidden'>
 						<ul className='flex items-center'>
 							<NavLink
 								className={({ isActive }) =>

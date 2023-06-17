@@ -17,10 +17,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 const StartEarning = () => {
 	
 	return (
-		<div
-			
-			className='bg-[#0A2540] pt-[30vw] pb-[20vw] relative bg-clip'
-		>
+		<div className='bg-[#0A2540] pt-[30vw] md:pt-[15vw] pb-[20vw] relative bg-clip'>
 			<Container>
 				<div className='text-white mt-[2vw] mb-[5vw]'>
 					<SectionTitle
@@ -46,7 +43,7 @@ const StartEarning = () => {
 					>
 						<SwiperSlide>
 							<div className='flex flex-col md:flex-row items-center z-10 relative'>
-								<div className='p-[10vw] flex flex-col  items-start flex-1 order-1'>
+								<div className='p-[10vw] flex flex-col  items-start flex-1 order-1 md:order-0'>
 									<p
 										style={{
 											clipPath: `polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%)`,
@@ -70,7 +67,7 @@ const StartEarning = () => {
 									</div>
 								</div>
 
-								<div className='h-[76vw] md:h-[36vw]  '>
+								<div className='h-[76vw] md:h-[36vw] md:order-2  '>
 									<video
 										autoPlay
 										muted
@@ -87,7 +84,7 @@ const StartEarning = () => {
 						</SwiperSlide>
 						<SwiperSlide>
 							<div className='flex flex-col md:flex-row items-center z-10 relative'>
-								<div className='p-[10vw] flex flex-col  items-start flex-1 order-1'>
+								<div className='p-[10vw] flex flex-col  items-start flex-1 order-1 md:order-0'>
 									<p
 										style={{
 											clipPath: `polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%)`,
@@ -111,7 +108,7 @@ const StartEarning = () => {
 									</div>
 								</div>
 
-								<div className='h-[76vw] md:h-[36vw] '>
+								<div className='h-[76vw] md:h-[36vw] md:order-2 '>
 									<video
 										autoPlay
 										muted
@@ -128,7 +125,7 @@ const StartEarning = () => {
 						</SwiperSlide>
 						<SwiperSlide>
 							<div className='flex flex-col md:flex-row items-center z-10 relative'>
-								<div className='p-[10vw] flex flex-col  items-start flex-1 order-1'>
+								<div className='p-[10vw] flex flex-col  items-start flex-1 order-1 md:order-0'>
 									<p
 										style={{
 											clipPath: `polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%)`,
@@ -151,7 +148,7 @@ const StartEarning = () => {
 									</div>
 								</div>
 
-								<div className='h-[76vw] md:h-[36vw] '>
+								<div className='h-[76vw] md:h-[36vw] md:order-2 '>
 									<video
 										autoPlay
 										muted

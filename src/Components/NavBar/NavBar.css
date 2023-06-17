@@ -4,3 +4,9 @@
     padding: 0px 1rem ;
     font-weight: 500;
 }
+.default{
+    font-size: 1.15rem;
+    color: var(--secondary-color);
+    padding: 0px 1rem ;
+    font-weight: 500;
+}

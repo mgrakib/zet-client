@@ -16,12 +16,13 @@ const NavBar = () => {
 						/>
 					</div>
 
-					<div className="ml-auto">
+					<div className="md:hidden ml-auto">
 						<FaBars />
 					</div>
-					<nav className='ml-auto hidden'>
+					<nav className='ml-auto hidden md:block'>
 						<ul className='flex items-center'>
 							<NavLink
+								to={'/'}
 								className={({ isActive }) =>
 									isActive ? "active" : "default"
 								}
@@ -29,6 +30,7 @@ const NavBar = () => {
 								<li>Home</li>
 							</NavLink>
 							<NavLink
+								to={'/about'}
 								className={({ isActive }) =>
 									isActive ? "active" : "default"
 								}

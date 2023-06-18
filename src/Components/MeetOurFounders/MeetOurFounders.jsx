@@ -18,15 +18,18 @@ const MeetOurFounders = () => {
 		<>
 			<div className='pb-[8rem] pt-[2rem] bg-[#ECF5FF]'>
 				<Container>
-					<h4 className='text-[40px] font-[800] leading-[40px] text-[#303541] my-[32px] text-center'>
+					<h4 className='text-[24px] md:text-[40px] font-[800] md:leading-[40px] leading-[32px] text-[#303541]  text-center'>
 						Meet the Investors
 					</h4>
+					<p className='text-center text-[16px] md:text-[24px] font-[400] mt-[10px] leading-[32px] md:leading-[40px]'>
+						Few words from founders desk
+					</p>
 
 					<div
 						data-aos='fade-up'
 						data-aos-duration='1000'
 					>
-						<div className='pt-[2vw] relative grid grid-cols-3 gap-[2vw]'>
+						<div className='pt-[2vw] relative grid md:grid-cols-3 gap-[2vw]'>
 							<div className='group'>
 								<div className='p-[1rem] flex flex-col group-hover:scale-[1.02] duration-200'>
 									<div>
@@ -37,10 +40,10 @@ const MeetOurFounders = () => {
 									</div>
 									<div className='flex items-center justify-between'>
 										<div>
-											<h3 className='mt-4 text-[#303541] text-[24px] font-[500]'>
+											<h3 className='mt-4 text-[#303541] text-[16px] md:text-[24px] font-[500]'>
 												Manish Shara
 											</h3>
-											<p className='text-[#8691A8] text-[20px] font-[500]'>
+											<p className='text-[#8691A8] text-[14px] md:text-[20px] font-[500]'>
 												Co- Founder & CEO
 											</p>
 										</div>
@@ -64,10 +67,10 @@ const MeetOurFounders = () => {
 									</div>
 									<div className='flex items-center justify-between'>
 										<div>
-											<h3 className='mt-4 text-[#303541] text-[24px] font-[500]'>
+											<h3 className='mt-4 text-[#303541] text-[16px] md:text-[24px] font-[500]'>
 												Manish Shara
 											</h3>
-											<p className='text-[#8691A8] text-[20px] font-[500]'>
+											<p className='text-[#8691A8] text-[14px] md:text-[20px] font-[500]'>
 												Co- Founder & CEO
 											</p>
 										</div>
@@ -91,10 +94,10 @@ const MeetOurFounders = () => {
 									</div>
 									<div className='flex items-center justify-between'>
 										<div>
-											<h3 className='mt-4 text-[#303541] text-[24px] font-[500]'>
+											<h3 className='mt-4 text-[#303541] text-[16px] md:text-[24px] font-[500]'>
 												Manish Shara
 											</h3>
-											<p className='text-[#8691A8] text-[20px] font-[500]'>
+											<p className='text-[#8691A8] text-[14px] md:text-[20px] font-[500]'>
 												Co- Founder & CEO
 											</p>
 										</div>

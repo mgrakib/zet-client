@@ -7,9 +7,9 @@ import YourStory from "../../assets/gotFetured/YourStory.webp";
 
 const GotFeatured = () => {
     return (
-		<div className='pb-[8rem] pt-[2rem] bg-[#FAFBFE]'>
+		<div className='pb-[2rem] md:pb-[8rem] pt-[2rem] bg-[#FAFBFE]'>
 			<Container>
-				<h4 className='text-[40px] font-[800] leading-[40px] text-[#303541] my-[32px]'>
+				<h4 className='text-[24px] md:text-[40px] font-[800] leading-[40px] text-[#303541] my-[32px]'>
 					Got Featured
 				</h4>
 

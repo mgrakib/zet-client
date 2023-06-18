@@ -22,9 +22,9 @@ AOS.init();
 
 const MeetInvestors = () => {
 	return (
-		<div className='pb-[8rem] pt-[2rem]'>
+		<div className='pb-[2rem] md:pb-[8rem] md:pt-[2rem]'>
 			<Container>
-				<h4 className='text-[40px] font-[800] leading-[40px] text-[#303541] my-[32px]'>
+				<h4 className='text-[24px] md:text-[40px] font-[800] leading-[40px] text-[#303541] my-[32px]'>
 					Meet the Investors
 				</h4>
 
@@ -66,7 +66,7 @@ const MeetInvestors = () => {
 					</div>
 				</div>
 
-				<div className='pt-[2vw] pb-[8vw] relative grid grid-cols-3 gap-[2vw]'>
+				<div className='pt-[2vw] pb-[4vw] md:pb-[8vw] relative grid grid-cols-3 gap-[2vw]'>
 					<div className='group'>
 						<div className='p-[1rem] flex flex-col group-hover:scale-[1.02] duration-200'>
 							<div>
@@ -75,10 +75,10 @@ const MeetInvestors = () => {
 									alt=''
 								/>
 							</div>
-							<h3 className='mt-4 text-[#303541] text-[18px] font-[500]'>
+							<h3 className='mt-4 text-[#303541] text-[10px] md:text-[18px] font-[500]'>
 								Kunal Shah
 							</h3>
-							<p className='text-[#8691A8] text-[16px] font-[500]'>
+							<p className='text-[#8691A8] text-[10px] md:text-[16px] font-[500]'>
 								Founder, CRED
 							</p>
 						</div>
@@ -91,10 +91,10 @@ const MeetInvestors = () => {
 									alt=''
 								/>
 							</div>
-							<h3 className='mt-4 text-[#303541] text-[18px] font-[500]'>
+							<h3 className='mt-4 text-[#303541] text-[10px] md:text-[18px] font-[500]'>
 								Gaurav Munjal
 							</h3>
-							<p className='text-[#8691A8] text-[16px] font-[500]'>
+							<p className='text-[#8691A8] text-[10px] md:text-[16px] font-[500]'>
 								Founder, UNACADEMY
 							</p>
 						</div>
@@ -107,10 +107,10 @@ const MeetInvestors = () => {
 									alt=''
 								/>
 							</div>
-							<h3 className='mt-4 text-[#303541] text-[18px] font-[500]'>
+							<h3 className='mt-4 text-[#303541] text-[10px] md:text-[18px] font-[500]'>
 								Aakrit Vaish
 							</h3>
-							<p className='text-[#8691A8] text-[16px] font-[500]'>
+							<p className='text-[#8691A8] text-[10px] md:text-[16px] font-[500]'>
 								Co-Founder, HAPTIK
 							</p>
 						</div>
@@ -123,10 +123,10 @@ const MeetInvestors = () => {
 									alt=''
 								/>
 							</div>
-							<h3 className='mt-4 text-[#303541] text-[18px] font-[500]'>
+							<h3 className='mt-4 text-[#303541] text-[10px] md:text-[18px] font-[500]'>
 								Harshil Mathur
 							</h3>
-							<p className='text-[#8691A8] text-[16px] font-[500]'>
+							<p className='text-[#8691A8] text-[10px] md:text-[16px] font-[500]'>
 								Founder, RAZORPAY
 							</p>
 						</div>
@@ -139,10 +139,10 @@ const MeetInvestors = () => {
 									alt=''
 								/>
 							</div>
-							<h3 className='mt-4 text-[#303541] text-[18px] font-[500]'>
+							<h3 className='mt-4 text-[#303541] text-[10px] md:text-[18px] font-[500]'>
 								Vidit Aatrey
 							</h3>
-							<p className='text-[#8691A8] text-[16px] font-[500]'>
+							<p className='text-[#8691A8] text-[10px] md:text-[16px] font-[500]'>
 								Founder & CEO, MEESHO
 							</p>
 						</div>
@@ -155,10 +155,10 @@ const MeetInvestors = () => {
 									alt=''
 								/>
 							</div>
-							<h3 className='mt-4 text-[#303541] text-[18px] font-[500]'>
+							<h3 className='mt-4 text-[#303541] text-[10px] md:text-[18px] font-[500]'>
 								Amrish Rau
 							</h3>
-							<p className='text-[#8691A8] text-[16px] font-[500]'>
+							<p className='text-[#8691A8] text-[10px] md:text-[16px] font-[500]'>
 								CEO, PINELABS
 							</p>
 						</div>
@@ -171,10 +171,10 @@ const MeetInvestors = () => {
 									alt=''
 								/>
 							</div>
-							<h3 className='mt-4 text-[#303541] text-[18px] font-[500]'>
+							<h3 className='mt-4 text-[#303541] text-[10px] md:text-[18px] font-[500]'>
 								Lalit Keshre
 							</h3>
-							<p className='text-[#8691A8] text-[16px] font-[500]'>
+							<p className='text-[#8691A8] text-[10px] md:text-[16px] font-[500]'>
 								CEO, GROWW
 							</p>
 						</div>
@@ -187,10 +187,10 @@ const MeetInvestors = () => {
 									alt=''
 								/>
 							</div>
-							<h3 className='mt-4 text-[#303541] text-[18px] font-[500]'>
+							<h3 className='mt-4 text-[#303541] text-[10px] md:text-[18px] font-[500]'>
 								Gokul Rajaram
 							</h3>
-							<p className='text-[#8691A8] text-[16px] font-[500]'>
+							<p className='text-[#8691A8] text-[10px] md:text-[16px] font-[500]'>
 								Product, DOORDASH
 							</p>
 						</div>

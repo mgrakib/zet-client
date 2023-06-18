@@ -4,7 +4,7 @@ const HowWeEvolved = () => {
     return (
 		<div className='mt-[48px] mb-[24px] text-center'>
 			
-				<h3 className='text-[#303541] text-[40px] font-[800]'>
+				<h3 className='text-[#303541] text-[24px] md:text-[40px] font-[800]'>
 					How we evolved over the years
 				</h3>
 

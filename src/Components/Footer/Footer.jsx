@@ -14,12 +14,13 @@ import {
 } from "react-icons/fa";
 const Footer = () => {
     return (
-		<div className="relative">
+		<div className="relative h-[100vh] bg-red-400">
 			<img
 				src={aboutUs}
 				alt=''
+				className="h-[100%] object-cover"
 			/>
-			<div className='py-[30px] md:py-[2rem] absolute top-0'>
+			<div className='py-[30px] md:py-[2rem] absolute top-0 '>
 				<Container>
 					<div>
 						<div className='border-b flex w-full justify-start py-5'>

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 const NavBar = () => {
     return (
-		<div className='py-[8px] border-b border-[#D1D8E1]'>
+		<div className='py-[8px] border-b border-[#D1D8E1] relative z-30 bg-white'>
 			<Container>
 				<div className='flex items-center  h-[64px]'>
 					<div className=' cursor-pointer'>
@@ -16,13 +16,13 @@ const NavBar = () => {
 						/>
 					</div>
 
-					<div className="md:hidden ml-auto">
+					<div className='md:hidden ml-auto'>
 						<FaBars />
 					</div>
 					<nav className='ml-auto hidden md:block'>
 						<ul className='flex items-center'>
 							<NavLink
-								to={'/'}
+								to={"/"}
 								className={({ isActive }) =>
 									isActive ? "active" : "default"
 								}
@@ -30,7 +30,7 @@ const NavBar = () => {
 								<li>Home</li>
 							</NavLink>
 							<NavLink
-								to={'/about'}
+								to={"/about"}
 								className={({ isActive }) =>
 									isActive ? "active" : "default"
 								}
@@ -38,6 +38,7 @@ const NavBar = () => {
 								<li>About Us</li>
 							</NavLink>
 							<NavLink
+								to={"/partner-with-us"}
 								className={({ isActive }) =>
 									isActive ? "active" : "default"
 								}
